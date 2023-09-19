@@ -13,7 +13,7 @@ Required libraries:
 
 The prerequisites can be installed via `pip install -r requirements.txt`
 
-These scripts also requires Pip and Python 3 to be installed and configured on your device.
+These scripts also require Pip and Python 3 to be installed and configured on your device.
 
 How to install Python 3: https://realpython.com/installing-python/
 
@@ -22,6 +22,13 @@ How to install Pip: https://pip.pypa.io/en/stable/installation/
 ## How to use the scripts
 
 After installing the required modules on your system, run DiscordChannelScrape.py from the commandline.
+
+`python DiscordChannelScrape.py` 
+
+or 
+
+`python3 DiscordChannelScrape.py`
+
 You will need two variables for this script to work:
 * Authorization Token from Discord
 * Channel ID
@@ -48,7 +55,7 @@ Firefox: ![FireFox3](Images/Firefox3.png "Firefox3.png")
 
 Chrome: ![Chrome3](Images/Chrome3.png "Chrome3.png")
 
-* Copy this token for later to input into the Python Script
+* Copy this Authorization Token to input into the Python Script
 
 To get the **Channel ID**, it will be in the same area of the web browser, and be at the top of the page (within the GET request) where you got the authorization token.
 
@@ -56,7 +63,15 @@ Firefox: ![Firefoxc4](Images/Firefox4.png "Firefox4.png")
 
 Chrome: ![Chrome4](Images/Chrome4.png "Chrome4.png")
 
+* Copy the Channel ID to input into the Python Script
+
 After exporting the data from the Discord server, you can run exportinfofromjson.py from the commandline to export the data into a CSV file. You will need to enter the exported json file name and the name of the csv file you would like exported.
+
+`python exportinfofromjson.py` 
+
+or 
+
+`python3 exportinfofromjson.py`
 
 ## Limitations
 * Each run of DiscordChannelScrape.py will only return the most recent 50 results from the Discord Channel. 
