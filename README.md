@@ -14,7 +14,9 @@ Required libraries:
 The prerequisites can be installed via `pip install -r requirements.txt`
 
 These scripts also requires Pip and Python 3 to be installed and configured on your device.
+
 How to install Python 3: https://realpython.com/installing-python/
+
 How to install Pip: https://pip.pypa.io/en/stable/installation/
 
 ## How to use the scripts
