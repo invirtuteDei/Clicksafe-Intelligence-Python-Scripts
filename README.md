@@ -44,26 +44,32 @@ To get the **Authorization Token** from Discord do the following:
 * Open Developer Tools -> Network on your Web Browser of Choice
 
 Firefox:
+
 <img src="Images/Firefox1.png" alt="FireFox1" width="450"/>
 
 Chrome:
+
 <img src="Images/Chrome1.png" alt="Chrome1" width="450"/>
 
 * Reload the page or use the record button in the network traffic to display requests on the page
 * Look for the request titled **messages?limit=50** and click on it
 
 Firefox:
+
 <img src="Images/Firefox2.png" alt="FireFox2" width="450"/>
 
 Chrome:
+
 <img src="Images/Chrome2.png" alt="Chrome2" width="450"/>
 
 * Scroll down to Request Headers and you should see the Authorization token for your Discord Account
 
 Firefox:
+
 <img src="Images/Firefox3.png" alt="FireFox3" width="450"/>
 
 Chrome:
+
 <img src="Images/Chrome3.png" alt="Chrome3" width="450"/>
 
 * Copy this Authorization Token to input into the Python Script
@@ -71,9 +77,11 @@ Chrome:
 To get the **Channel ID**, it will be in the same area of the web browser, and be at the top of the page (within the GET request) where you got the authorization token.
 
 Firefox:
+
 <img src="Images/Firefox4.png" alt="FireFox4" width="450"/>
 
 Chrome:
+
 <img src="Images/Chrome4.png" alt="Chrome4" width="450"/>
 
 * Copy the Channel ID to input into the Python Script
