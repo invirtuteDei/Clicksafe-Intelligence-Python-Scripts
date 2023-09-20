@@ -1,4 +1,5 @@
 # Clicksafe Intelligence Python Scripts
+![ClickSafe](https://img1.wsimg.com/isteam/ip/c8ad73c4-d52f-4f22-9e26-54fd13383de9/CSI-horz-o.jpg/:/rs=w:891,h:326,cg:true,m/cr=w:891,h:326/qt=q:95 "Clicksafe Logo")
 ---
 **NOTE: All scripts provided in this repository are without warranty and used at your own risk. These are examples of ones we used during our research process and may not be usuable in future interations of Python or the Discord API. We are not responsible for any misuse of violation of terms of use from the use of these scripts.**
 
