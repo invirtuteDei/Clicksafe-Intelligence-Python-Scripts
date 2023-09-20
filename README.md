@@ -1,7 +1,7 @@
 # Clicksafe Intelligence Python Scripts
 
 <p align="center">
-<img src="https://img1.wsimg.com/isteam/ip/c8ad73c4-d52f-4f22-9e26-54fd13383de9/CSI-horz-o.jpg/:/rs=w:891,h:326,cg:true,m/cr=w:891,h:326/qt=q:95" alt="drawing" width="300"/>
+<img src="https://img1.wsimg.com/isteam/ip/c8ad73c4-d52f-4f22-9e26-54fd13383de9/CSI-horz-o.jpg/:/rs=w:891,h:326,cg:true,m/cr=w:891,h:326/qt=q:95" alt="clicksafelogo" width="300"/>
 </p>
 
 ---
@@ -43,30 +43,38 @@ To get the **Authorization Token** from Discord do the following:
 * Select the server and channel that you would like to scrape from
 * Open Developer Tools -> Network on your Web Browser of Choice
 
-Firefox: ![FireFox1](Images/Firefox1.png "Firefox1.png")
+Firefox:
+<img src="Images/Firefox1.png" alt="FireFox1" width="450"/>
 
-Chrome: ![Chrome1](Images/Chrome1.png "Chrome1.png")
+Chrome:
+<img src="Images/Chrome1.png" alt="Chrome1" width="450"/>
 
 * Reload the page or use the record button in the network traffic to display requests on the page
 * Look for the request titled **messages?limit=50** and click on it
 
-Firefox: ![FireFox2](Images/Firefox2.png "Firefox2.png")
+Firefox:
+<img src="Images/Firefox2.png" alt="FireFox2" width="450"/>
 
-Chrome: ![Chrome2](Images/Chrome2.png "Chrome2.png")
+Chrome:
+<img src="Images/Chrome2.png" alt="Chrome2" width="450"/>
 
 * Scroll down to Request Headers and you should see the Authorization token for your Discord Account
 
-Firefox: ![FireFox3](Images/Firefox3.png "Firefox3.png")
+Firefox:
+<img src="Images/Firefox3.png" alt="FireFox3" width="450"/>
 
-Chrome: ![Chrome3](Images/Chrome3.png "Chrome3.png")
+Chrome:
+<img src="Images/Chrome3.png" alt="Chrome3" width="450"/>
 
 * Copy this Authorization Token to input into the Python Script
 
 To get the **Channel ID**, it will be in the same area of the web browser, and be at the top of the page (within the GET request) where you got the authorization token.
 
-Firefox: ![Firefoxc4](Images/Firefox4.png "Firefox4.png")
+Firefox:
+<img src="Images/Firefox4.png" alt="FireFox4" width="450"/>
 
-Chrome: ![Chrome4](Images/Chrome4.png "Chrome4.png")
+Chrome:
+<img src="Images/Chrome4.png" alt="Chrome4" width="450"/>
 
 * Copy the Channel ID to input into the Python Script
 
